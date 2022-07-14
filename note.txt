@@ -1,0 +1,34 @@
+const initialState = {
+    'Hello World'
+}
+
+
+//Reducer
+const bookingReducer = (state = initialState, action) => {
+    switch (action.type) {
+        case 'BOOKED_TICKET': 
+            (Solving logic)
+
+            return ;
+
+        case 'CANCEL_TICKET':
+            (Solving logic)
+
+            return ;
+        
+        default:
+            return  
+    }
+}
+
+//Javascript function
+function bookedTicket() {
+    return {
+        type: BOOKED_TICKET
+    }
+}
+
+const action = {
+    action: '',
+    payload: ''
+} 

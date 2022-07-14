@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bookedColor{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.ghe {
+  border: 3px solid orange;
+  background-color: #fff;
+  width: 45px;
+  height: 35px;
+  font-size: 12px;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+}
+
+.rowNumber {
+  /* font-size: 25px; */
+  width: 45px;
+  height: 35px;
+  background: none;
+  border: none;
+  margin-left: 16px;
+  margin-bottom: 1%;
+  color: yellow;
+}
+
+.firstChar {
+  color: yellow;
+  font-size: 35px;
+  margin-right: 15px;
+}
+
+.screen {
+  border-bottom: 50px solid rgb(216, 198, 40);
+  height: 100;
+  width: 80%;
+  font-size: 25px;
+  color: #fff;
+}
+
+.gheDuocChon {
+  border: 3px solid orange;
+  background: orange;
+  color: #000;
+  cursor: no-drop !important;
+  border-radius: 5px;
+  width: 45px;
+  height: 35px;
+}
+
+.gheDangChon {
+  background: rgb(109, 238, 109);
+  border: 3px solid rgb(109, 238, 109);
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 45px;
+  height: 35px;
+}
